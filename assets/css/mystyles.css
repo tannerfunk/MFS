@@ -1,0 +1,56 @@
+.colorChange {
+    color: rgb(0, 0, 0)
+}
+
+.changeBackColor {
+    background-color: rgb(148, 148, 148);
+}
+
+.changeH3TagsInHero {
+    color: white
+}
+
+/* I copied some header styles to mine so i could just change one aspect of it! */
+
+#dealerHeader {
+    background: rgb(148, 148, 148);
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 20px 0;
+  }
+  #dealerHeader.header-scrolled {
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 12px 0;
+  }
+  
+  #dealerHeader.header-inner-pages {
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  #dealerHeader .logo {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  #dealerHeader .logo a {
+    color: #556270;
+  }
+  
+  #dealerHeader .logo img {
+    max-height: 45px;
+  }
+
+
+  .padMFS {
+
+    padding-bottom: 100px 0;
+  }
+
+  .padDL {
+
+    padding-top: 5px;
+  }
